@@ -1,3 +1,6 @@
+![a cover image depciting an 80s vapor wave theme and containing the letters VWN, and the words Vapor Wave Networks'.](https://github.com/rossja/vapormesh/blob/main/www/img/logo-600.jpg)
+
+
 # Vapor Wave Networks
 
 A fully-functional interactive showcase website for a fictitious tech company designed for demonstration, mockup, training, and research purposes.
