@@ -1,6 +1,7 @@
 # Vapor Mesh Networks
 
 A fully-functional interactive showcase website for a fictitious tech company designed for demonstration, mockup, training, and research purposes.
+The site is hosted at https://vapormesh.net.
 
 ## Overview
 
