@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vapor Mesh Networks</title>
+    <link rel="stylesheet" href="light.css">
+    <link rel="stylesheet" href="dark.css">
+    <!-- Required libraries for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="theme-toggle-container">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle-icon">☀️</span>
+            </button>
+        </div>
+        <div class="header-content">
+            <div class="logo-title-container">
+                <img src="img/logo-1024.jpg" alt="Vapor Mesh Networks Logo" class="company-logo">
+                <h1 class="company-name">Vapor Mesh Networks</h1>
+            </div>
+            <p class="header-tagline">AI-Powered Mesh Networks for the Web3 Era 🚀</p>
+            <div class="compliance-banner">
+                EU AI Act Compliant 🇪🇺 | SOC2 Type II | Carbon Neutral 🌱
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="overview" class="overview-section">
+            <h2 class="section-header">Shaping the Future of Intelligent Networks 🌐</h2>
+        </section>
+
+        <section id="products">
+            <h2 class="section-header">Our Future-Ready Stack 🛠️</h2>
+            <div class="products">
+                <!-- NexusAI Gateway -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">🔐</span>
+                            </div>
+                            <h3 class="product-title">NexusAI Gateway</h3>
+                            <button class="pdf-download-btn" data-product="NexusAI Gateway" data-file="nexusai-gateway.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>LLM-powered intelligent gateway ensuring predictive security and autonomous traffic optimization. EU AI Act compliant with full decision transparency.</p>
+                            <button class="pdf-download-btn light" data-product="NexusAI Gateway" data-file="nexusai-gateway.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ZeroTrust Orchestrator -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">🧠</span>
+                            </div>
+                            <h3 class="product-title">ZeroTrust Orchestrator</h3>
+                            <button class="pdf-download-btn" data-product="ZeroTrust Orchestrator" data-file="zerotrust-orchestrator.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>AI-driven network orchestration with autonomous healing capabilities. Continuous security posture assessment with real-time threat adaptation.</p>
+                            <button class="pdf-download-btn light" data-product="ZeroTrust Orchestrator" data-file="zerotrust-orchestrator.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MeshX Nodes -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">📡</span>
+                            </div>
+                            <h3 class="product-title">MeshX Nodes</h3>
+                            <button class="pdf-download-btn" data-product="MeshX Nodes" data-file="meshx-nodes.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>Self-organizing mesh points with edge AI processing. Automatic topology optimization and predictive maintenance alerts.</p>
+                            <button class="pdf-download-btn light" data-product="MeshX Nodes" data-file="meshx-nodes.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quantum Shield -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">🔒</span>
+                            </div>
+                            <h3 class="product-title">Quantum Shield</h3>
+                            <button class="pdf-download-btn" data-product="Quantum Shield" data-file="quantum-shield.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>Post-quantum encryption ready VPN with AI-powered threat detection. Zero-trust architecture with continuous identity verification.</p>
+                            <button class="pdf-download-btn light" data-product="Quantum Shield" data-file="quantum-shield.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EdgeVault -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">☁️</span>
+                            </div>
+                            <h3 class="product-title">EdgeVault</h3>
+                            <button class="pdf-download-btn" data-product="EdgeVault" data-file="edgevault.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>Web3-ready distributed storage with smart data routing. Built-in regulatory compliance and automated data governance.</p>
+                            <button class="pdf-download-btn light" data-product="EdgeVault" data-file="edgevault.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NetOps Command -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">📊</span>
+                            </div>
+                            <h3 class="product-title">NetOps Command</h3>
+                            <button class="pdf-download-btn" data-product="NetOps Command" data-file="netops-command.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>ML-powered network analytics with predictive maintenance. Real-time intelligence dashboard with automated optimization recommendations.</p>
+                            <button class="pdf-download-btn light" data-product="NetOps Command" data-file="netops-command.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ComplianceGuard -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">📋</span>
+                            </div>
+                            <h3 class="product-title">ComplianceGuard</h3>
+                            <button class="pdf-download-btn" data-product="ComplianceGuard" data-file="complianceguard.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>Automated compliance monitoring for SOC2, GDPR, and EU AI Act. Real-time policy enforcement with AI governance controls.</p>
+                            <button class="pdf-download-btn light" data-product="ComplianceGuard" data-file="complianceguard.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Product: QuantumSync -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">⚛️</span>
+                            </div>
+                            <h3 class="product-title">QuantumSync</h3>
+                            <button class="pdf-download-btn" data-product="QuantumSync" data-file="quantumsync.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>Quantum-resistant data synchronization with multi-region support. Built-in entropy management and quantum key distribution ready.</p>
+                            <button class="pdf-download-btn light" data-product="QuantumSync" data-file="quantumsync.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Product: EcoMesh -->
+                <div class="product-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="product-emoji-container">
+                                <span class="product-emoji">🌱</span>
+                            </div>
+                            <h3 class="product-title">EcoMesh</h3>
+                            <button class="pdf-download-btn" data-product="EcoMesh" data-file="ecomesh.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                        <div class="card-back">
+                            <p>Energy-optimized networking with carbon-aware routing. AI-driven power management and sustainable infrastructure optimization.</p>
+                            <button class="pdf-download-btn light" data-product="EcoMesh" data-file="ecomesh.md">
+                                <span class="download-icon">📄</span> Download PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Vapor Mesh Networks | Powering the Intelligent Network Revolution 🚀</p>
+        <div class="footer-badges">
+            <span>EU AI Act Compliant</span> |
+            <span>Carbon Neutral Infrastructure</span> |
+            <span>Web3 Ready</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="markdown-to-pdf.js"></script>
+</body>
+</html>

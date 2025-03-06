@@ -1,0 +1,238 @@
+/* Dark theme color overrides */
+:root {
+    --primary-color: #FF1493;
+    --secondary-color: #6C5CE7;
+    --accent-color: #00FFFF;
+    --gradient-start: #2E1B6B;
+    --gradient-end: #1A0F3C;
+    --text-primary: #FFFFFF;
+    --text-secondary: #B8B8B8;
+    --background-light: #0A0A0F;
+    --card-background: #1A1A24;
+}
+
+/* Base styles for dark theme */
+body.dark-mode {
+    background-color: var(--background-light);
+    color: var(--text-primary);
+    background-image:
+        linear-gradient(rgba(108, 92, 231, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(108, 92, 231, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+}
+
+/* Header dark styles */
+.dark-mode header {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+}
+
+.dark-mode .section-header {
+    color: var(--text-primary);
+}
+
+/* Logo styles in dark mode */
+.dark-mode .company-logo {
+    box-shadow: 0 0 30px rgba(255, 20, 147, 0.5);
+    border: 2px solid rgba(255, 20, 147, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark-mode .company-logo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 40px rgba(255, 20, 147, 0.7);
+}
+
+/* Company name gradient in dark mode */
+.dark-mode .company-name {
+    background: linear-gradient(120deg, #FF1493 0%, #6C5CE7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
+}
+
+/* Card styles for dark mode */
+.dark-mode .card-front,
+.dark-mode .card-back {
+    border: 1px solid rgba(255, 20, 147, 0.2);
+    transition: all 0.3s ease;
+}
+
+.dark-mode .card-front {
+    background: var(--card-background);
+}
+
+.dark-mode .card-back {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+}
+
+/* Neon glow effect on hover */
+.dark-mode .product-card:hover .card-front {
+    box-shadow:
+        0 0 5px rgba(255, 20, 147, 0.5),
+        0 0 10px rgba(255, 20, 147, 0.3),
+        0 0 15px rgba(255, 20, 147, 0.1);
+    border-color: rgba(255, 20, 147, 0.5);
+    transform: translateY(-5px);
+}
+
+.dark-mode .product-card:hover .card-back {
+    box-shadow:
+        0 0 5px rgba(108, 92, 231, 0.5),
+        0 0 10px rgba(108, 92, 231, 0.3),
+        0 0 15px rgba(108, 92, 231, 0.1);
+    border-color: rgba(108, 92, 231, 0.5);
+    transform: translateY(-5px) rotateY(180deg);
+}
+
+/* Emoji container dark styles */
+.dark-mode .product-emoji-container {
+    background: linear-gradient(45deg, var(--card-background) 0%, #1A1A24 100%);
+    border-bottom: 1px solid rgba(255, 20, 147, 0.2);
+}
+
+.dark-mode .product-card:hover .product-emoji-container {
+    background: linear-gradient(45deg, #1A1A24 0%, var(--card-background) 100%);
+}
+
+.dark-mode .product-emoji {
+    text-shadow: 0 0 10px rgba(255, 20, 147, 0.3);
+}
+
+.dark-mode .product-title {
+    color: var(--text-primary);
+}
+
+/* Footer dark styles */
+.dark-mode footer {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+}
+
+/* Overview section dark styles */
+.dark-mode .overview-section {
+    background: var(--card-background);
+    border: 1px solid rgba(255, 20, 147, 0.2);
+    box-shadow: 0 0 20px rgba(255, 20, 147, 0.1);
+}
+
+/* PDF Download Button Styles - Dark Theme */
+.dark-mode .pdf-download-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .pdf-download-btn:hover {
+    background-color: #FF4FAD;
+    box-shadow:
+        0 0 5px rgba(255, 20, 147, 0.5),
+        0 0 10px rgba(255, 20, 147, 0.3);
+    transform: translateY(-2px);
+}
+
+.dark-mode .pdf-download-btn:active {
+    background-color: #D10075;
+    transform: translateY(0);
+}
+
+.dark-mode .pdf-download-btn.light {
+    background-color: rgba(108, 92, 231, 0.3);
+    border: 1px solid rgba(108, 92, 231, 0.5);
+    margin-top: 15px;
+}
+
+.dark-mode .pdf-download-btn.light:hover {
+    background-color: rgba(108, 92, 231, 0.5);
+    box-shadow:
+        0 0 5px rgba(108, 92, 231, 0.5),
+        0 0 10px rgba(108, 92, 231, 0.3);
+}
+
+/* Compliance banner in dark mode */
+.dark-mode .compliance-banner {
+    background: rgba(255, 20, 147, 0.1);
+    border: 1px solid rgba(255, 20, 147, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Animation styles for dark mode */
+.dark-mode .product-card.fade-in {
+    animation: glow-fade-in 0.8s ease forwards;
+}
+
+@keyframes glow-fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        box-shadow: none;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        box-shadow: 0 0 10px rgba(255, 20, 147, 0.1);
+    }
+}
+
+/* Responsive styles for dark mode */
+@media (max-width: 992px) {
+    .dark-mode .product-card {
+        height: auto;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dark-mode .company-logo {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .dark-mode .company-name {
+        font-size: 2.5rem;
+    }
+
+    .dark-mode .header-tagline {
+        font-size: 1.1rem;
+    }
+
+    .dark-mode .compliance-banner {
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .dark-mode .section-header {
+        font-size: 1.8rem;
+    }
+
+    .dark-mode .product-emoji {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .dark-mode .company-name {
+        font-size: 2rem;
+    }
+
+    .dark-mode .company-logo {
+        height: 160px;
+    }
+
+    .dark-mode .product-emoji-container {
+        padding: 2rem;
+    }
+
+    .dark-mode .footer-badges {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .dark-mode .footer-badges span {
+        display: block;
+    }
+
+    .dark-mode .overview-section {
+        padding: 1.25rem;
+    }
+}
