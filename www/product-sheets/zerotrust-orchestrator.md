@@ -100,4 +100,4 @@ Enable the platform to automatically remediate common security issues, from misc
 
 ---
 
-*© 2025 Vapor Mesh Networks | Powering the Intelligent Network Revolution*
+*© 2025 Vapor Wave Networks | Powering the Intelligent Network Revolution*

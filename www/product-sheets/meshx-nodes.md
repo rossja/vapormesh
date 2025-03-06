@@ -100,4 +100,4 @@ Our intuitive management dashboard provides comprehensive visibility:
 
 ---
 
-*© 2025 Vapor Mesh Networks | Powering the Intelligent Network Revolution*
+*© 2025 Vapor Wave Networks | Powering the Intelligent Network Revolution*

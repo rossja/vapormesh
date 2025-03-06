@@ -88,4 +88,4 @@ MistFlow's intuitive intelligence dashboard provides unprecedented visibility in
 
 ---
 
-*© 2025 Vapor Mesh Networks | Powering the Intelligent Network Revolution*
+*© 2025 Vapor Wave Networks | Powering the Intelligent Network Revolution*
